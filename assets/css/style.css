@@ -25,7 +25,14 @@
 
 body {
   /* background: #00091b; */
-  background-image: url("assets/img/hero-bg.jpg");
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 150, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   position: relative;
   min-height: 100vh;
