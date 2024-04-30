@@ -120,6 +120,21 @@ p {
 }
 
 /* For screens between 768px and 1023px (e.g., tablets) */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .wrapper {
+    margin-top: 50px; /* Adjust top margin for tablets */
+  }
+
+  h1 {
+    font-size: 40px; /* Adjust font size for tablets */
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For screens between 768px and 1023px (e.g., tablets) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .wrapper {
     margin-top: 50px; /* Adjust top margin for tablets */
