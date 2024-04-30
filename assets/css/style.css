@@ -25,7 +25,11 @@
 
 body {
   /* background: #00091b; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(
+      112.1deg,
+      rgba(32, 38, 57, 0.8) 11.4%,
+      rgba(63, 76, 119, 0.8) 70.2%
+    ),
     url("../img/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
