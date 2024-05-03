@@ -30,15 +30,15 @@ body {
       rgba(32, 38, 57, 0.8) 11.4%,
       rgba(63, 76, 119, 0.8) 70.2%
     ),
-    url("../img/hero-bg.jpg");
+    url("../img/bg-img.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
   min-height: 100vh;
-  margin: 0; /* Reset default margin */
-  padding: 0; /* Reset default padding */
-  font-family: "Roboto", sans-serif; /* Apply default font */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
