@@ -121,6 +121,12 @@ a {
     font-size: 1rem;
   }
 
+  .logo img {
+    width: 50%;
+    height: auto;
+    max-height: 150px;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -138,6 +144,12 @@ a {
   .wrapper {
     width: 100%;
     padding: 10px;
+  }
+
+  .logo img {
+    width: 50%;
+    height: auto;
+    max-height: 150px;
   }
 
   h1 {
