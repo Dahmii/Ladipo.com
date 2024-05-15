@@ -35,7 +35,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -75,6 +75,11 @@ p {
   margin: 18px;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .icons {
   text-align: center;
 }
@@ -100,6 +105,63 @@ p {
   cursor: pointer !important;
   transform: scale(1.2);
   text-decoration: none;
+}
+
+/* Default styles */
+.address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-address,
+.right-address {
+  flex: 1;
+  line-height: 2.5rem;
+}
+
+.vertical-line {
+  border-left: 1px solid #000;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.address a {
+  color: red;
+  font-weight: bold;
+}
+
+.mail-link {
+  text-decoration: none; /* Remove underline */
+}
+
+.mail-link .bulk-link {
+  color: blue; /* Change color to a common link color */
+  font-weight: bold; /* Make the text bold */
+}
+
+.mail-link .bulk-link:hover {
+  /* Style on hover */
+  color: #007bff; /* Change color on hover (example blue) */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styles for address smaller screens */
+@media (max-width: 768px) {
+  .address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .left-address,
+  .right-address {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 /* MOBILE APP */
@@ -150,12 +212,12 @@ p {
 }
 
 /* For screens larger than 1023px (e.g., desktops) */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .wrapper {
-    margin-top: 35px; /* Adjust top margin for desktops */
+    margin-top: 35px; 
   }
 
   h1 {
-    font-size: 50px; /* Keep original font size for desktops */
+    font-size: 35px;
   }
-}
+} */
