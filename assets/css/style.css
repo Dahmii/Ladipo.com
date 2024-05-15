@@ -106,6 +106,10 @@ a {
   font-size: 4vw;
 }
 
+.address a {
+  color: red;
+}
+
 @media (min-width: 768px) {
   .address {
     flex-direction: row;
