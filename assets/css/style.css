@@ -134,30 +134,35 @@ a {
   }
 }
 
-@media (min-width: 600px) {
-  .address {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-  }
-
-  .address h2 {
-    font-size: 1.5rem;
-  }
-
-  .address p {
-    font-size: 1rem;
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    padding: 10px;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 6vw;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 4vw;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 3.5vw;
+  }
+
+  .icons a {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+
+  .address h2 {
+    font-size: 4vw;
+  }
+
+  .address p {
+    font-size: 3.5vw;
   }
 }
